@@ -1,0 +1,52 @@
+:root {
+  --gradient-color1: rgba(195, 205, 222, 1);
+  --gradient-color2: rgba(182, 199, 226, 1);
+  --chat-background-color: rgba(0, 0, 0, 0.15);
+  --color1: rgba(255, 255, 255, 0.3);
+  --color2: rgba(255, 255, 255, 0.55);
+  --color3: rgba(255, 255, 255, 1);
+  --text-color: #000;
+  --placeholder-color: #333;
+  --border-thick: 1px solid rgba(0, 0, 0, 0.75);
+  --border-thin: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+*,
+*::after,
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color2);
+}

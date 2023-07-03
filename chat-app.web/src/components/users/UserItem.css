@@ -1,0 +1,75 @@
+.users-list__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  list-style: none;
+  border-bottom: var(--border-thin);
+  transition: all 0.1s;
+}
+
+.users-list__item:hover {
+  background-color: var(--color1);
+}
+
+.users-list__item--active {
+  background-color: var(--color1);
+}
+
+.users-list__message-text {
+  direction: ltr;
+  font-style: italic;
+}
+
+.users-list__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color1);
+}
+
+.users-list__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+  color: var(--text-color);
+}
+
+.users-list__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.users-list__name {
+  font-weight: bold;
+}
+
+.users-list__message-datetime {
+  padding-top: 2px;
+  font-size: 0.75rem;
+}
+
+.users-list__recent-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.users-list__number-of-new-messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  padding-top: 4px;
+  background-color: var(--color2);
+  color: var(--text-color);
+  border-radius: 50%;
+  font-size: 0.85rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+}

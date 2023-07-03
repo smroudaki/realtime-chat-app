@@ -1,0 +1,43 @@
+.lobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+  color: #333;
+  padding: 50px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.lobby__icon {
+  font-size: 3.3rem;
+  display: flex;
+}
+
+.lobby__frm {
+  display: flex;
+  flex-direction: column;
+  gap: 12.5px;
+}
+
+.lobby__input {
+  font: 0.9rem "IRANSans";
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.lobby__btn {
+  font: 0.9rem "IRANSans";
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(80 145 255);
+  color: #fff;
+  cursor: pointer;
+}

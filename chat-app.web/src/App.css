@@ -1,0 +1,70 @@
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font: 0.95rem "IRANSans";
+  background: linear-gradient(
+    270deg,
+    var(--gradient-color1),
+    var(--gradient-color2)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient-animation 5s ease infinite;
+  -moz-animation: gradient-animation 5s ease infinite;
+  -o-animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-o-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

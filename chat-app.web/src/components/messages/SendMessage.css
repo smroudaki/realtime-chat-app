@@ -1,0 +1,27 @@
+.send-message__icon {
+    display: flex;
+    font-size: 1.5em;
+    color: var(--color3);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.send-message {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.send-message__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font: 0.9rem "IRANSans";
+}
+
+.send-message__input::placeholder {
+    color: var(--placeholder-color);
+}
