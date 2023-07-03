@@ -9,7 +9,7 @@ Chat page:
 ![Chat Page](https://github.com/smroudaki/realtime-chat-app/blob/main/chat-app.web/src/assets/images/chat-page.png)
 
 How it works:
-https://github.com/smroudaki/realtime-chat-app/blob/main/chat-app.web/src/assets/videos/how-it-works.mp4
+https://github.com/smroudaki/realtime-chat-app/assets/28443350/1ee44d04-7ea6-4338-bbf0-01c782433afe
 
 ## Features
 - Join Room
@@ -26,8 +26,8 @@ To run the application, these tools must be installed in your systems:
 Follow these steps to run the application:
 1. Download the project
 2. Open it with vscode or any editors you prefer
-3. To run the server side, change directory to: `chat-app.api`
+3. To run the server side, change directory to: chat-app.api
 4. Then, run it using the command: `dotnet run`
-5. To run the client side, change directory to: `chat-app.web`
+5. To run the client side, change directory to: chat-app.web
 6. Then, install the required packages using the command: `npm install`
 7. Finally, run it using the command: `npm start`
